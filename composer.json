@@ -1,0 +1,21 @@
+{
+    "name": "analyze/sav_log",
+    "description":" ",
+    "keywords":[
+    ],
+    "config":{
+        "bin-dir": "bin"
+    },
+    "license": "BSD-3-Clause",
+    "autoload":{
+        "psr-4":{
+            "Marshal\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "2.*",
+        "symfony/yaml": "2.*",
+        "app2641/garnet-beans": "*",
+        "satooshi/php-coveralls": "*"
+    }
+}

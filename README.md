@@ -1,0 +1,2 @@
+# AnalyzeSnavLog
+Snavアクセスログを生成するための集計ツール

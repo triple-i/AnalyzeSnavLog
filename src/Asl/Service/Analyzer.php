@@ -303,7 +303,7 @@ class Analyzer
     private function _iterateLogFile ($analyze)
     {
         while ($row = $this->reader->getParser()->parse()) {
-            if ($this->reader->getParser()->getNumberOfRow() === 1) continue;
+            // if ($this->reader->getParser()->getNumberOfRow() === 1) continue;
             if (count($row) == 1 && $row[0] == '') continue;
             if (! preg_match("/".$this->date."/", $row[$this->header['date']])) continue;
 
